@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../Hero/Hero'
-import Category from '../Category/category'
+import Category from '../Category/Category'
 import Values from '../Values/Values'
 import Products from '../Products/Products'
 import Discount from '../Discount/Discount'
