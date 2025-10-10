@@ -1,16 +1,33 @@
-# React + Vite
+# Grocify - React & Tailwind CSS Frontend E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Grocify** is a responsive and modern **e-commerce frontend web application** built with **React** and **Tailwind CSS**. The website allows users to explore fresh groceries, fruits, vegetables, dairy, and seafood products with smooth navigation and interactive UI. This project is purely frontend; all pages are rendered dynamically using **React components** and **JavaScript**. No backend integration is included.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Features
 
-## React Compiler
+- **Responsive Design** – Works seamlessly on desktop, tablet, and mobile devices.
+- **Modern UI** – Clean layout with Tailwind CSS for styling.
+- **Interactive Buttons** – Navigate between sections and pages with smooth scrolling and click events.
+- **Pages Included**:
+  - **Home Page** – Hero section, featured products, categories, banners.
+  - **Products Page** – List of products with category-wise segregation.
+  - **Process Page** – Step-by-step workflow illustration.
+  - **FAQ Page** – Accordion style frequently asked questions.
+  - **About Page** – Company information and values.
+  - **Contact Page** – Static contact information.
+- **Reusable Components** – Navbar, Footer, Product Cards, Buttons, Banners, etc.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Component-based frontend library.
+- **Tailwind CSS** – Utility-first CSS framework for styling.
+- **JavaScript** – For button interactions and page rendering.
+- **Vite** – Build tool and development server.
+
+---
+
+
+
