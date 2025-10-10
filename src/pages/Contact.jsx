@@ -1,6 +1,5 @@
 import React from 'react'
-import Banner from '../components/Banner/Banner'
-
+import Banner from '../components/Banner/Banner.jsx'
 import Bgcontact from '../assets/images/contact-banner.jpg'
 
 

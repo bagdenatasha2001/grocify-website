@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaHeart, FaPlus } from 'react-icons/fa'
-import Button from '../Button/Button'
-import { FiX } from 'react-icons/fi'
+import Button from '../Button/Button.jsx'
 
 
 export default function Cards({image, name, price }) {

@@ -1,9 +1,10 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import React from 'react'
+
 import { Navigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import Heading from '../Heading/Heading'
+import Heading from '../Heading/Heading.jsx'
 import { IoIosArrowBack, IoIosArrowForward, } from "react-icons/io";
 import customer1 from '../../assets/images/customer1.jpg'
 import customer2 from '../../assets/images/customer2.jpg'
@@ -11,7 +12,6 @@ import customer3 from '../../assets/images/customer3.jpg'
 import customer4 from '../../assets/images/customer4.jpg'
 import customer5 from '../../assets/images/customer5.jpg'
 import { FaStar } from 'react-icons/fa';
-// import { CgUnavailable } from 'react-icons/cg';
 
 
 export default function Testimonials() {
@@ -103,8 +103,8 @@ export default function Testimonials() {
                                             <h5 className='text-xl font-bold'>{item.name}</h5>
                                             <p className='text-zinc-600'>{item.profession}</p>
                                             <span className='flex text-yellow-400 mt-3 text-xl gap-1'>
-                                                {Array.from({ length: item.rating }, (_, index) => (
-                                                    <FaStar />
+                                                {Array.from({ length: item.rating }).map((_, i) => (
+                                                    <FaStar key={i} />
                                                 ))}
                                             </span>
                                         </div>
@@ -124,7 +124,7 @@ export default function Testimonials() {
                 </Swiper>
 
 
-                
+
 
             </div>
         </section>

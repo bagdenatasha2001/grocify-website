@@ -1,6 +1,5 @@
 import React from 'react'
 import grocery from '../../assets/images/grocery.png'
-import Button from '../Button/Button'
 import { Link } from 'react-router-dom'
 
 

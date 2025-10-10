@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import Heading from '../Heading/Heading'
-import productList from '../ProductList/ProductList'
-import Cards from '../Cards/Cards'
-import Button from '../Button/Button'
+import Heading from '../Heading/Heading.jsx'
+import productList from '../ProductList/ProductList.js'
+import Cards from '../Cards/Cards.jsx'
 import { Link } from 'react-router-dom'
 
 useState

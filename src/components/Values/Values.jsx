@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading/Heading.jsx'
 import { FaHeart, FaLeaf, FaShieldAlt,FaSeedling } from "react-icons/fa";
 import basket from '../../assets/images/basket-full-vegetables.png'
 

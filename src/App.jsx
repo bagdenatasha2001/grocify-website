@@ -1,4 +1,4 @@
-import react from 'react'
+// import react from 'react'
 import './index.css'
 import Home from './components/Home/Home.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'

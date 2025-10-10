@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Button/Button'
+import Button from '../Button/Button.jsx'
 import freshfruit from '../../assets/images/fresh-fruits.png'
 
 export default function Discount() {

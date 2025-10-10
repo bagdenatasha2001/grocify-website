@@ -1,8 +1,7 @@
-import React from 'react'
-import Banner from '../Banner/Banner'
-import ProductList from '../ProductList/ProductList'
-import Cards from '../Cards/Cards'
-// const categories = ['All', 'Fruits','Vegetables','Dairy','SeaFood']
+// import React from 'react'
+import Banner from '../Banner/Banner.jsx'
+import ProductList from '../ProductList/ProductList.js'
+import Cards from '../Cards/Cards.jsx'
 export default function CategoryPage({title,bgImage,categories=[]}) {
 
     let filteredItems = categories.includes("All")

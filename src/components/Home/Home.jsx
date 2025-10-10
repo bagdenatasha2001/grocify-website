@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from '../Hero/Hero'
-import Category from '../Category/Category'
-import Values from '../Values/Values'
-import Products from '../Products/Products'
-import Discount from '../Discount/Discount'
-import Process from '../Process/Process'
-import Testimonials from '../Testimonials/Testimonials'
+import Hero from '../Hero/Hero.jsx'
+import Category from '../Category/Category.jsx'
+import Values from '../Values/Values.jsx'
+import Products from '../Products/Products.jsx'
+import Discount from '../Discount/Discount.jsx'
+import Process from '../Process/Process.jsx'
+import Testimonials from '../Testimonials/Testimonials.jsx'
 
 export default function Home() {
   return (

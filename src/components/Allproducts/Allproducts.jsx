@@ -1,6 +1,6 @@
 import React from 'react'
 import BgAll from '../../assets/images/all-banner.jpg'
-import CategoryPage from '../CategoryPage/CategoryPage'
+import CategoryPage from '../CategoryPage/CategoryPage.jsx'
 
 
 export default function Allproducts() {

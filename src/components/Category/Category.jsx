@@ -1,9 +1,8 @@
 import React from 'react'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading/Heading.jsx'
 import fruitscat from '../../assets/images/fruits-and-veggies.png'
 import dairycat from '../../assets/images/dairy-and-eggs.png'
 import seafoodcat from '../../assets/images/meat-and-seafood.png'
-import Button from '../Button/Button'
 import { Link } from 'react-router-dom'
 
 export default function Category() {

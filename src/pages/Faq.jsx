@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Banner from '../components/Banner/Banner'
+import Banner from '../components/Banner/Banner.jsx'
 import BgFaq from '../assets/images/faq-banner.jpg'
 
 export default function Faq(){

@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading/Heading.jsx'
 import { TbCircleNumber1Filled,TbCircleNumber2Filled , TbCircleNumber3Filled ,TbCircleNumber4Filled } from "react-icons/tb";
 import { PiFactory, PiPlant } from "react-icons/pi";
 import { SlBadge } from "react-icons/sl";
