@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../Banner/Banner'
-import CategoryPage from '../Categorypage/CategoryPage'
+import CategoryPage from '../CategoryPage/CategoryPage'
 import BgSeafood from '../../assets/images/Seafood-Banner.jpg'
 
 export default function Seafood() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoryPage from '../Categorypage/CategoryPage'
+import CategoryPage from '../CategoryPage/CategoryPage'
 import BgDairy from '../../assets/images/Dairy-Banner.jpg'
 
 export default function Dairy() {

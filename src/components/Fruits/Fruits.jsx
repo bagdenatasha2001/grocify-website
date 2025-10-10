@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoryPage from '../Categorypage/CategoryPage'
+import CategoryPage from '../CategoryPage/CategoryPage'
 import BgFriuits from '../../assets/images/Fruits-Banner.jpg'
 
 export default function Fruits() {
