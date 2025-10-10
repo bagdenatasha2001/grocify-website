@@ -88,16 +88,16 @@ useEffect(()=>{
         {/* mobile menu */}
         <ul className={`flex flex-col items-center gap-x-15 md:hidden absolute gap-y-12 bg-orange-500/15 backdrop-blur-xl shadow-xl rounded-xl p-10 top-30 -left-1/2 transform -translate-x-1/2 transition-all duration-500 ${showMenu ? 'left-1/2': ' '}` }>
           <li>
-            <a href='#' className='font-semibold text-orange-500 tracking-wider' > Home</a>
+            <Link to='/' className='font-semibold text-orange-500 tracking-wider' > Home</Link>
           </li> 
           <li> 
-            <a href='#' className='font-semibold text-zinc-800 tracking-wider hover:text-orange-500 ' >About Us</a>
+            <Link to='/about' className='font-semibold text-zinc-800 tracking-wider hover:text-orange-500 ' >About Us</Link>
           </li> 
           <li> 
-            <a href='#' className='font-semibold text-zinc-800 tracking-wider hover:text-orange-500 ' > Process</a>
+            <Link to='/process' className='font-semibold text-zinc-800 tracking-wider hover:text-orange-500 ' > Process</Link>
           </li> 
           <li> 
-            <a href='#' className='font-semibold text-zinc-800 tracking-wider hover:text-orange-500 ' > Contact</a>
+            <Link to='/contact' className='font-semibold text-zinc-800 tracking-wider hover:text-orange-500 ' > Contact</Link>
           </li>
 
           {/* Input field */}
